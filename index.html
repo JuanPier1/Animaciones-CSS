@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio de JP</title>
+<link rel="stylesheet" href="/CSS/index.min.css">
+<link rel="icon" ype="image/svg+xml" href="/Assets/bearicon.svg">
+</head>
+<body class="parallax-background">
+    <nav class="nav-background">
+        <a class="logo">
+            <img src="/Assets/bearicon.svg" alt="Logo">
+        </a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="nav-links">
+            <li class="border-rainbow">
+                <a href="index.html">
+                    <span class="icon">🏠</span>
+                    <span>Inicio</span>
+                </a>
+            </li>
+            <li class="border-rainbow">
+                <a href="">
+                    <span class="icon">🖥️</span>
+                    <span>Mensaje</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="background-layer"></div>
+    <div class="container" id="container">
+        <div>
+            <h1 class="title">JP Dev</h1>
+        </div>
+        <div class="frameContainer animated-gradient">
+            <iframe src="/Assets/ascii.html" id="iframe" title="ASCII" scrolling="no" frameborder="0"></iframe>
+        </div>
+        <div class="music-player">
+            <iframe 
+                data-testid="embed-iframe" 
+                style="border-radius:12px" 
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1E8OW2uODT8ELJ?utm_source=generator&theme=0" 
+                width="60%" height="152" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="/JS/index.min.js" defer></script>
+</body>
+</html>
