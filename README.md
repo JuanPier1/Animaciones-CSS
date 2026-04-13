@@ -1,5 +1,9 @@
 # Para visualizar la página entre a https://juanpier1.github.io/Animaciones-CSS/
-## Tecnologías: HTML5, CSS3, JavaScript, JQuery, SVG, Ofuscación
+## Tecnologías: 
+* HTML5/CSS3
+* JavaScript
+* JQuery
+* SVG
 ## Animaciones:
 * Fondo con efecto parallax simple
 * Efectos y estilos
